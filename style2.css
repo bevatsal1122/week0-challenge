@@ -1,0 +1,79 @@
+body {
+   background-color: black;
+}
+#leftsec {
+   float: left;
+   display: block;
+   margin-top: 0.8vh;
+   margin-left: 0.5vw;
+}
+#leftsec a {
+   font-weight: bold;
+   color: cornsilk;
+   text-decoration: none;
+}
+#leftsec a:hover {
+   text-decoration: underline;
+   color: darkgoldenrod;
+}
+.rightc {
+   float: right;
+   display: block;
+   margin-top: 2vh;
+   margin-right: 1vw;
+}
+#advance, #google {
+   height: 28px;
+   background-color: grey;
+   border: 2px grey;
+}
+#advance:hover {
+   border: 6px rgba(236, 234, 228, 0.972);
+   border-radius: 25px;
+   background-color: rgba(236, 234, 228, 0.972);
+   transition: all 0.4s;
+}
+#google:hover {
+   border: 16px rgba(236, 234, 228, 0.972);
+   border-radius: 25px;
+   background-color: rgba(236, 234, 228, 0.972);
+   transition: all 0.4s;
+}
+#glogo {
+   width: 21.8vw;
+   margin-top: 20.55vh;
+   margin-left: 19vw;
+}
+#sspace {
+   font-family: Bahnschrift SemiBold;
+   font-size: 19px;
+   padding-left: 18px;
+   width: 48vw;
+   height: 6vh;
+   margin-left: 25.85vw;
+   border-radius: 26px;
+   border: 2px white;
+   outline: none;
+}
+#sspace:hover {
+   margin-bottom: -3.5px;
+   width: 51vw;
+   height: 7vh;
+   margin-top: -4px;
+   margin-left: 24.4vw;
+   transition: all 0.2s;
+   box-shadow: 6px 5px 50px green;
+}
+#search {
+   font-size: 18px;
+   font-family: Bookman Old Style;
+   width: 16vw;
+   height: 4.4vh;
+   margin-left: 42.35vw;
+   border: 2px brown;
+   background-color: brown;
+   border-radius: 25px;
+}
+#search:hover{
+   box-shadow: 3px 3px 30px indigo;
+}

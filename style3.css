@@ -1,0 +1,72 @@
+body {
+   background-color: black;
+}
+.rightc {
+   float: right;
+   display: block;
+   margin-top: 2vh;
+   margin-right: 2vw;
+}
+#images, #google {
+   height: 28px;
+   background-color: grey;
+   border: 2px grey;
+}
+#images:hover {
+   border: 6px rgba(236, 234, 228, 0.972);
+   border-radius: 25px;
+   box-shadow: 100px 0px 0px grey;
+   background-color: rgba(236, 234, 228, 0.972);
+   transition: all 0.2s;
+}
+#google:hover {
+   border: 16px rgba(236, 234, 228, 0.972);
+   border-radius: 25px;
+   background-color: rgba(236, 234, 228, 0.972);
+   box-shadow: 0px 100px 200px 40px grey;
+   transition: all 0.2s;
+}
+#glogo {
+   float: left;
+   width: 9vw;
+   margin-top: 2vh;
+   margin-left: 2vw;
+}
+#top {
+   background-color: grey;
+   width: 99.2vw;
+   height: 11.5vh;
+}
+#details {
+   color: cornsilk;
+   margin-left: 1vw;
+}
+.instruct {
+   font-size: 20px;
+}
+.tosearch {
+   width: 75vw;
+   height: 6vh;
+   outline: none;
+   border: 2px white;
+   font-family: Bahnschrift SemiBold;
+   font-size: 19px;
+   padding-left: 1vw;
+}
+.tosearch:hover {
+   box-shadow: 0.8px 0.8px 10px orange;
+}
+#avds {
+   float: right;
+   display: block;
+   background-color: rgb(255, 208, 1);
+   font-size: 18px;
+   font-family: Arial Black;
+   width: 15vw;
+   height: 6.5vh;
+   margin-right: 5vw;
+   border: 2px rgb(255, 208, 1);
+}
+#avds:hover {
+   box-shadow: 3px 3px 45px darkblue;
+}
